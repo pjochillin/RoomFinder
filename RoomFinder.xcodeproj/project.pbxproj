@@ -11,6 +11,8 @@
 		0498D3D12B087E12003DD7C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498D3D02B087E12003DD7C9 /* ContentView.swift */; };
 		0498D3D32B087E13003DD7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498D3D22B087E13003DD7C9 /* Assets.xcassets */; };
 		0498D3D62B087E13003DD7C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498D3D52B087E13003DD7C9 /* Preview Assets.xcassets */; };
+		0498D3DD2B0894C3003DD7C9 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498D3DC2B0894C3003DD7C9 /* NavigationBar.swift */; };
+		0498D3DF2B0895CD003DD7C9 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498D3DE2B0895CD003DD7C9 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0498D3D02B087E12003DD7C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0498D3D22B087E13003DD7C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0498D3D52B087E13003DD7C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0498D3DC2B0894C3003DD7C9 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		0498D3DE2B0895CD003DD7C9 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				0498D3CE2B087E12003DD7C9 /* RoomFinderApp.swift */,
 				0498D3D02B087E12003DD7C9 /* ContentView.swift */,
+				0498D3DC2B0894C3003DD7C9 /* NavigationBar.swift */,
 				0498D3D22B087E13003DD7C9 /* Assets.xcassets */,
 				0498D3D42B087E13003DD7C9 /* Preview Content */,
+				0498D3DE2B0895CD003DD7C9 /* TabBar.swift */,
 			);
 			path = RoomFinder;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				0498D3D12B087E12003DD7C9 /* ContentView.swift in Sources */,
 				0498D3CF2B087E12003DD7C9 /* RoomFinderApp.swift in Sources */,
+				0498D3DD2B0894C3003DD7C9 /* NavigationBar.swift in Sources */,
+				0498D3DF2B0895CD003DD7C9 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
