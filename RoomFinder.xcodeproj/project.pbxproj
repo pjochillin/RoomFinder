@@ -13,6 +13,8 @@
 		0498D3D62B087E13003DD7C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0498D3D52B087E13003DD7C9 /* Preview Assets.xcassets */; };
 		0498D3DD2B0894C3003DD7C9 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498D3DC2B0894C3003DD7C9 /* NavigationBar.swift */; };
 		0498D3DF2B0895CD003DD7C9 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498D3DE2B0895CD003DD7C9 /* TabBar.swift */; };
+		0498D3E32B09311A003DD7C9 /* RoomStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498D3E22B09311A003DD7C9 /* RoomStruct.swift */; };
+		0498D3E52B0931CD003DD7C9 /* ClassStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498D3E42B0931CD003DD7C9 /* ClassStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		0498D3D52B087E13003DD7C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0498D3DC2B0894C3003DD7C9 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		0498D3DE2B0895CD003DD7C9 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0498D3E22B09311A003DD7C9 /* RoomStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStruct.swift; sourceTree = "<group>"; };
+		0498D3E42B0931CD003DD7C9 /* ClassStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				0498D3D22B087E13003DD7C9 /* Assets.xcassets */,
 				0498D3D42B087E13003DD7C9 /* Preview Content */,
 				0498D3DE2B0895CD003DD7C9 /* TabBar.swift */,
+				0498D3E22B09311A003DD7C9 /* RoomStruct.swift */,
+				0498D3E42B0931CD003DD7C9 /* ClassStruct.swift */,
 			);
 			path = RoomFinder;
 			sourceTree = "<group>";
@@ -144,9 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0498D3D12B087E12003DD7C9 /* ContentView.swift in Sources */,
+				0498D3E32B09311A003DD7C9 /* RoomStruct.swift in Sources */,
 				0498D3CF2B087E12003DD7C9 /* RoomFinderApp.swift in Sources */,
 				0498D3DD2B0894C3003DD7C9 /* NavigationBar.swift in Sources */,
 				0498D3DF2B0895CD003DD7C9 /* TabBar.swift in Sources */,
+				0498D3E52B0931CD003DD7C9 /* ClassStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
